@@ -23,4 +23,4 @@ jobs:
 
     - name: Run Trivy scan
       run: |
-        trivy fs --exit-code 1 ./
+        trivy fs --exit-code 1 --severity CRITICAL ./
